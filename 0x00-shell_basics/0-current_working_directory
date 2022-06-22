@@ -1,11 +1,18 @@
 #!/bin/bash
-pwd
-S
- 0-current_working_directory
+echo $0
+
+guide=$(realpath $0)
+
+echo $guide
+
+dir_path=$(dirname $guide)
+echo $dir_path
+
+0-current_working_directorycase 
  
 
 
-press
+
 
 
 
