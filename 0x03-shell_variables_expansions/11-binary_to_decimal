@@ -1,2 +1,2 @@
-#!/bin/bash
-$(( 2#$BINARY ))
+#!/bin/basj
+echo $((2#$BINARY))
